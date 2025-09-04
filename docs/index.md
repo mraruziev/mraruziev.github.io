@@ -16,7 +16,7 @@ for<br>
 
 ## Introduction
 
-* I will be sharing updates on the EGR 304 project related to my inidividual work and team projects. Stay tuned to see more updates in this website very soon as I complete through different projects.
+* There are going to be many parts of projects that I will be sharing through this website. Stay tuned to see more from my individual contribution for team projects for EGR 304.
 
 ### Project Summary
 
