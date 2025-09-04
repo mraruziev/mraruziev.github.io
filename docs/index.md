@@ -11,12 +11,12 @@ as part of<br>
 for<br>
 <font size= "5"> Team 210 </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: september, 03, 2025**
 </center>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* This project needs to be updated so that a reader gets an idea of the purpose of this datasheet.
 
 ### Project Summary
 
