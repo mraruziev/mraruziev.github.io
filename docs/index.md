@@ -16,7 +16,7 @@ for<br>
 
 ## Introduction
 
-* This project needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* I will be sharing updates on the EGR 304 project related to my inidividual work and team projects. Stay tuned to see more updates in this website very soon as I complete through different projects.
 
 ### Project Summary
 
