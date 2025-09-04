@@ -9,7 +9,7 @@ theme:
     primary: blue
     accent: indigo
   font:
-    text: Roboto
+  text: Roboto
   logo: static/logo304.svg
   favicon: static/logo304.png
 
