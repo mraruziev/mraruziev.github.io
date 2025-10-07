@@ -1,7 +1,8 @@
 site_name: EGR 304 Asadbek Data Sheet
 site_url: https://mraruziev.github.io/
-repo_url: https://github.com/mraruziev.github.io/
+repo_url: https://github.com/mraruziev/mraruziev.github.io
 edit_uri: edit/main/docs/
+
 theme:
   name: material
   custom_dir: custom_theme/
@@ -9,27 +10,24 @@ theme:
     primary: blue
     accent: indigo
   font:
-  text: Roboto
+    text: Roboto          # <-- correctly nested
+    code: Roboto Mono
   logo: static/logo304.svg
   favicon: static/logo304.png
-
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    - toc.follow    
+    - toc.follow
     - navigation.top
     - navigation.path
     - navigation.indexes
     - navigation.prune
     - content.action.edit
     - navigation.footer
-#    - navigation.sections
-#    - navigation.expand
-#    - navigation.instant # doesn't work that well
 
 markdown_extensions:
-  - attr_list #add attributes using curly brackets to images, see https://squidfunk.github.io/mkdocs-material/reference/images/
-  - md_in_html # see https://squidfunk.github.io/mkdocs-material/reference/images/
+  - attr_list
+  - md_in_html
   - footnotes
   - pymdownx.arithmatex:
       generic: true
@@ -40,30 +38,26 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-draft_docs: |
-  **/*_unpublished.md
-  **/*_draft.md
-  **/*_draft**
-  
 plugins:
   - search
-  - glightbox # allow resize images, see https://squidfunk.github.io/mkdocs-material/reference/images/
+  - glightbox
 
 extra_css:
-  - stylesheets/extra.css  
+  - stylesheets/extra.css
 
 extra_javascript:
- - javascripts/mathjax.js
- - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-    
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 not_in_nav: |
   static
-  
-copyright: "Copyright &copy; 2025 team-name-here"
+
+copyright: "Copyright © 2025 team-name-here"
 
 extra:
   generator: false
   social:
     - icon: fontawesome/regular/file-code
       link: /2025_fall
-      name: 2023 Site    
+      name: 2023 Site
+    
