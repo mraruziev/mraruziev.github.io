@@ -13,4 +13,4 @@ To see more about block diagram of my other teammates, please visit the team web
 
 ## Block Diagram 
 Following is my block diagram and is made in draw.io
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+![Example of Indivial Block diagram ](egr304drawio.png)
