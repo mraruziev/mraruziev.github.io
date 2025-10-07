@@ -6,19 +6,11 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
+Purpose fo block diagram is to ensure that my subsystem is going to be connected properly to subsystem of my teammates and the project will run properly. The sensor I will be working on is resistive sensor for the project and button and LED will be helping me to make required actions from the measurements the sensor will give. Team connections will be
 
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+To see more about block diagram of my other teammates, please visit the team website ["here"](https://egr304-2025-f-210.github.io/06-team-block-diagram/) for more details.
 
 
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
-
+## Block Diagram 
+Following is my block diagram and is made in draw.io
 ![Example of Indivial Block diagram ](individual-block-diagram.png)
