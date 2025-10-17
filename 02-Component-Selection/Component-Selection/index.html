@@ -567,9 +567,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#style-2" class="md-nav__link">
+  <a href="#components-choose-for-the-subsystem" class="md-nav__link">
     <span class="md-ellipsis">
-      Style 2
+      Components choose for the subsystem
     </span>
   </a>
   
@@ -834,9 +834,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#style-2" class="md-nav__link">
+  <a href="#components-choose-for-the-subsystem" class="md-nav__link">
     <span class="md-ellipsis">
-      Style 2
+      Components choose for the subsystem
     </span>
   </a>
   
@@ -877,43 +877,15 @@
 <blockquote>
 <p>This is the example found in the assignment, uses more html</p>
 </blockquote>
-<p><em>Table 1: Example component selection</em></p>
-<p><strong>External Clock Module</strong></p>
-<table>
-<thead>
-<tr>
-<th><strong>Solution</strong></th>
-<th><strong>Pros</strong></th>
-<th><strong>Cons</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image1.png" data-desc-position="bottom"><img alt="" src="../image1.png"></a><br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></td>
-<td>* Inexpensive[^1]<br>* Compatible with PSoC<br>* Meets surface mount constraint of project</td>
-<td>* Requires external components and support circuitry for interface<br>* Needs special PCB layout.</td>
-</tr>
-<tr>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a><br>* Option 2. <br>* CTX936TR-ND surface mount oscillator <br>* $1/each <br>* <a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></td>
-<td>* Outputs a square wave <br>* Stable over operating temperature <br> * Direct interface with PSoC (no external circuitry required) range</td>
-<td>* More expensive <br>* Slow shipping speed</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
-<h3 id="style-2">Style 2</h3>
-<blockquote>
-<p>Also acceptable, more markdown friendly</p>
-</blockquote>
-<p><strong>External Clock Module</strong></p>
+<h3 id="components-choose-for-the-subsystem">Components choose for the subsystem</h3>
+<hr>
 <ol>
 <li>
-<p>XC1259TR-ND surface mount crystal</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image1.png" data-desc-position="bottom"><img alt="" src="../image1.png"></a></p>
+<p>1528-2335-ND Digikey resistive sensor</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images.jpeg" data-desc-position="bottom"><img alt="" src="../images.jpeg"></a></p>
 <ul>
 <li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
+<li><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/166/7393589?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20232005509&amp;gbraid=0AAAAADrbLliL8TzXuQg7x9tLNvO4PqNgi&amp;gclid=CjwKCAjw0sfHBhB6EiwAQtv5qagfMTuvM6EWfkF-lDEyOs6MVN03ChBavjL6tKcwhR8kXR566HCPExoCmlEQAvD_BwE">link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -924,11 +896,11 @@
 </thead>
 <tbody>
 <tr>
-<td>Inexpensive</td>
-<td>Requires external components and support circuitry for interface</td>
+<td>Very Inexpensive</td>
+<td>Requires solding the component</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
+<td>Works with all types of nanoboards</td>
 <td>Needs special PCB layout.</td>
 </tr>
 <tr>
@@ -939,11 +911,11 @@
 </table>
 </li>
 <li>
-<p>CTX936TR-ND surface mount oscillator</p>
+<p>MCP6004-I/P-ND op-amp</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a></p>
 <ul>
 <li>$1/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940">Link to product</a></li>
+<li><a href="https://www.microchip.com/en-us/product/mcp6004">Link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -954,11 +926,11 @@
 </thead>
 <tbody>
 <tr>
-<td>Outputs a square wave</td>
+<td>Low-power</td>
 <td>More expensive</td>
 </tr>
 <tr>
-<td>Stable over operating temperature</td>
+<td>quad rail-to-rail I/O CMOS</td>
 <td>Slow shipping speed</td>
 </tr>
 <tr>
@@ -969,7 +941,7 @@
 </table>
 </li>
 </ol>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
+<p><strong>Choice:</strong> Option 2: OPA333 (TI) op amp</p>
 <p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
 
 
