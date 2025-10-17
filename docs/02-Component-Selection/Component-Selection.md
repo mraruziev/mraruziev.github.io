@@ -15,7 +15,7 @@ title: Component Selection Example
 
 1. 1528-2335-ND Digikey resistive sensor
 
-    ![](MFG_166_sml)
+    ![](MFG_166_sml.jpg)
 
     * $1/each
     * [link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/166/7393589?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLliL8TzXuQg7x9tLNvO4PqNgi&gclid=CjwKCAjw0sfHBhB6EiwAQtv5qagfMTuvM6EWfkF-lDEyOs6MVN03ChBavjL6tKcwhR8kXR566HCPExoCmlEQAvD_BwE)
@@ -25,6 +25,8 @@ title: Component Selection Example
     | Very Inexpensive                               | Requires solding the component |
     | Works with all types of nanoboards                      | Needs special PCB layout.                                        |
     | Meets surface mount constraint of project |
+
+    **Rationale:** This op amp is very cheap and is compatible with any nanoboard and our board too. It provides straightforward measurement of resistanse changes. We need it for filtering amplification of the signal coming through resistive sensor and this componene texactly does that for low-cost price.
 
 1. MCP6004-I/P-ND op-amp
 
