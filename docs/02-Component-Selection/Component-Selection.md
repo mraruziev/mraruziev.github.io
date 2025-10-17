@@ -15,7 +15,7 @@ title: Component Selection Example
 
 1. 1528-2335-ND Digikey resistive sensor
 
-    ![](images.jpeg)
+    ![](MFG_166_sml)
 
     * $1/each
     * [link to product](https://www.digikey.com/en/products/detail/adafruit-industries-llc/166/7393589?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLliL8TzXuQg7x9tLNvO4PqNgi&gclid=CjwKCAjw0sfHBhB6EiwAQtv5qagfMTuvM6EWfkF-lDEyOs6MVN03ChBavjL6tKcwhR8kXR566HCPExoCmlEQAvD_BwE)
@@ -28,7 +28,7 @@ title: Component Selection Example
 
 1. MCP6004-I/P-ND op-amp
 
-    ![](image3.png)
+    ![](images.jpeg)
 
     * $1/each
     * [Link to product](https://www.microchip.com/en-us/product/mcp6004)
