@@ -580,6 +580,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#voltage-regulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Voltage regulator
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -847,6 +856,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#voltage-regulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Voltage regulator
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -908,9 +926,6 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Other options:</strong> Option 2: OPA333 (TI) op amp
-Option 3: 1738-SEN0293-ND
-Option 4: 1027-1030-ND</p>
 </li>
 <li>
 <p>5475 Adafruit</p>
@@ -1013,7 +1028,7 @@ Option 4: 1027-1030-ND</p>
 <p>MCP601-I/P IC OPAMP GP 1 CIRCUIT 8DIP</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/300/341/924/150%7EC04-018%7EP%2C%20PA%7E8_sml%28200x200%29.jpg" data-desc-position="bottom"><img alt="" src="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/300/341/924/150%7EC04-018%7EP%2C%20PA%7E8_sml%28200x200%29.jpg"></a></p>
 <ul>
-<li>$0.40/each or free</li>
+<li>$0.40/each</li>
 <li><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP601-I-P/305930">Link to product</a></li>
 </ul>
 <table>
@@ -1046,7 +1061,107 @@ Option 4: 1027-1030-ND</p>
 <p>MCP603-I/P</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/300/341/924/150%7EC04-018%7EP%2C%20PA%7E8_sml%28200x200%29.jpg" data-desc-position="bottom"><img alt="" src="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/300/341/924/150%7EC04-018%7EP%2C%20PA%7E8_sml%28200x200%29.jpg"></a></p>
 <ul>
-<li>$0.67/each or free</li>
+<li>$0.67/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP603-I-P/305934?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20228387720&amp;gbraid=0AAAAADrbLlh_36NL6tG2xM8sOANdgFkI4&amp;gclid=CjwKCAjw0sfHBhB6EiwAQtv5qYySUVtsJZWfFdD2i3Bas2rJTBIOqGb7fxJG9O-PzXONhinhUFv1wRoCqyUQAvD_BwE">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Low-power consumption</td>
+<td>Not for dynamic applications</td>
+</tr>
+<tr>
+<td>stable and reliable usage</td>
+<td>Slow signal change</td>
+</tr>
+<tr>
+<td>Low power consumption</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Rationale for choosing MCP6004:</strong> The opamp MCP6004 is given by Microchip and offers low power consumption and has good compatibility with the nano board I am using for the subsystem, which also belongs to Microchip. It is very low cost and there is no need for the level-shifting of the componenets if this componenet is choosen. It's shipping speed is not fast but it is given in our kit so we can easily access it.</p>
+<h2 id="voltage-regulator">Voltage regulator</h2>
+<ol>
+<li>
+<p>LM7805T Linear Voltage regulator</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/001/176/122/MFG_5536_TO-220-3L_sml%28200x200%29.jpg" data-desc-position="bottom"><img alt="" src="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/001/176/122/MFG_5536_TO-220-3L_sml%28200x200%29.jpg"></a></p>
+<ul>
+<li>$0.40/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/taejin/LM7805T/22237260">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LVery cheap</td>
+<td>Temperature can change when it is at higher difference of voltage</td>
+</tr>
+<tr>
+<td>Very good output current value of 1.5 A</td>
+<td>Limited slew rate</td>
+</tr>
+<tr>
+<td>Already provided to us</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice 2:</strong> Option 2: MCP601-I/P IC OPAMP GP 1 CIRCUIT 8DIP</p>
+<ol>
+<li>
+<p>LM1084IT-5.0/NOPB</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/100/625/374/296%7ET03B%7ENDE%7E3_sml.jpg" data-desc-position="bottom"><img alt="" src="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/100/625/374/296%7ET03B%7ENDE%7E3_sml.jpg"></a></p>
+<ul>
+<li>2.83/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/texas-instruments/LM1084IT-5-0-NOPB/363556">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Smaller size and</td>
+<td>high consumption of power</td>
+</tr>
+<tr>
+<td>good rail-to-rail input/output</td>
+<td>Noise offset</td>
+</tr>
+<tr>
+<td>Easy for dynamic signals</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice 3:</strong> Option 2: MCP603-I/P</p>
+<ol>
+<li>
+<p>LM2596</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://i.ebayimg.com/images/g/m10AAOSwquxgONfC/s-l1600.webp" data-desc-position="bottom"><img alt="" src="https://i.ebayimg.com/images/g/m10AAOSwquxgONfC/s-l1600.webp"></a></p>
+<ul>
+<li>$2.48/each</li>
 <li><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP603-I-P/305934?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20228387720&amp;gbraid=0AAAAADrbLlh_36NL6tG2xM8sOANdgFkI4&amp;gclid=CjwKCAjw0sfHBhB6EiwAQtv5qYySUVtsJZWfFdD2i3Bas2rJTBIOqGb7fxJG9O-PzXONhinhUFv1wRoCqyUQAvD_BwE">Link to product</a></li>
 </ul>
 <table>
