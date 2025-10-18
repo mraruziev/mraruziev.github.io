@@ -572,9 +572,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#block-connectors-sensor-input-subsystem-headers" class="md-nav__link">
+  <a href="#op-amp" class="md-nav__link">
     <span class="md-ellipsis">
-      Block: Connectors (sensor input + subsystem headers)
+      Op amp
     </span>
   </a>
   
@@ -839,9 +839,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#block-connectors-sensor-input-subsystem-headers" class="md-nav__link">
+  <a href="#op-amp" class="md-nav__link">
     <span class="md-ellipsis">
-      Block: Connectors (sensor input + subsystem headers)
+      Op amp
     </span>
   </a>
   
@@ -911,8 +911,71 @@
 <p><strong>Other options:</strong> Option 2: OPA333 (TI) op amp
 Option 3: 1738-SEN0293-ND
 Option 4: 1027-1030-ND</p>
-<p><strong>Rationale for choosing 1528-2335-ND :</strong> This resistive sensor is very cheap and is compatible with any nanoboard and our board too. It provides straightforward measurement of resistanse changes. We need it for filtering amplification of the signal coming through resistive sensor and this componene texactly does that for low-cost price. If ordered today, its shipping is expected in 5 days.</p>
 </li>
+<li>
+<p>5475 Adafruit</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/003/217/472/MFG_5475_sml%28200x200%29.jpg" data-desc-position="bottom"><img alt="" src="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/003/217/472/MFG_5475_sml%28200x200%29.jpg"></a></p>
+<ul>
+<li>$4.95/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/adafruit-industries-llc/5475/22162362?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20232005509&amp;gbraid=0AAAAADrbLliA2QPoBJaKgRRDCe-E96ysN&amp;gclid=CjwKCAjw0sfHBhB6EiwAQtv5qYGZCGvvPbDwf9DDm2bSefonA0HU3gFHJq1bK3vT8t_ols2fsJB0wxoCc_sQAvD_BwE">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Widely used</td>
+<td>Nonlinearity in the results</td>
+</tr>
+<tr>
+<td>Better lifespan</td>
+<td></td>
+</tr>
+<tr>
+<td>Easier interfacing of the components</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>1738-SEN0293-ND DFrobot</li>
+</ol>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/100/948/661/SEN0293_sml.jpg" data-desc-position="bottom"><img alt="" src="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/100/948/661/SEN0293_sml.jpg"></a></p>
+<ul>
+<li>$6.50/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/dfrobot/SEN0293/10136549?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20232005509&amp;gbraid=0AAAAADrbLliA2QPoBJaKgRRDCe-E96ysN&amp;gclid=CjwKCAjw0sfHBhB6EiwAQtv5qb1dP63M7VRu8O6ERff4Tu-m0pQPTGdx5_IjUZ6b_PNYJ37PUhoaVBoCrzEQAvD_BwE">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wider ambient range</td>
+<td>Less precise</td>
+</tr>
+<tr>
+<td>Good amount of time for the response</td>
+<td></td>
+</tr>
+<tr>
+<td>thin form factor</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Rationale for choosing 1528-2335-ND :</strong> This resistive sensor is very cheap and is compatible with any nanoboard and our board too. It provides straightforward measurement of resistanse changes. We need it for filtering amplification of the signal coming through resistive sensor and this componene texactly does that for low-cost price. If ordered today, its shipping is expected in 5 days</p>
+</li>
+</ol>
+<h2 id="op-amp">Op amp</h2>
+<ol>
 <li>
 <p>MCP6004-I/P-ND op-amp</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../images.jpeg" data-desc-position="bottom"><img alt="" src="../images.jpeg"></a></p>
@@ -944,51 +1007,73 @@ Option 4: 1027-1030-ND</p>
 </table>
 </li>
 </ol>
-<p><strong>Choice:</strong> Option 2: OPA333 (TI) op amp</p>
-<p><strong>Rationale for choosing MCP6004:</strong> The opamp MCP6004 is given by Microchip and offers low power consumption and has good compatibility with the nano board I am using for the subsystem, which also belongs to Microchip. It is very low cost and there is no need for the level-shifting of the componenets if this componenet is choosen. It's shipping speed is not fast but it is given in our kit so we can easily access it.</p>
-<h2 id="block-connectors-sensor-input-subsystem-headers">Block: Connectors (sensor input + subsystem headers)</h2>
+<p><strong>Choice 2:</strong> Option 2: MCP601-I/P IC OPAMP GP 1 CIRCUIT 8DIP</p>
+<ol>
+<li>
+<p>MCP601-I/P IC OPAMP GP 1 CIRCUIT 8DIP</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/300/341/924/150%7EC04-018%7EP%2C%20PA%7E8_sml%28200x200%29.jpg" data-desc-position="bottom"><img alt="" src="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/300/341/924/150%7EC04-018%7EP%2C%20PA%7E8_sml%28200x200%29.jpg"></a></p>
+<ul>
+<li>$0.40/each or free</li>
+<li><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP601-I-P/305930">Link to product</a></li>
+</ul>
 <table>
 <thead>
 <tr>
-<th>Solution</th>
-<th>Photo</th>
-<th style="text-align: right;">Cost</th>
-<th>Link</th>
 <th>Pros</th>
 <th>Cons</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Option 1:</strong> JST-XH (2.5 mm pitch) wire-to-board</td>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image/jst-xh.png" data-desc-position="bottom"><img alt="JST-XH" src="../image/jst-xh.png"></a></td>
-<td style="text-align: right;">Low</td>
-<td><a href="https://www.jst-mfg.com/product/pdf/eng/eXH.pdf">JST XH datasheet</a></td>
-<td>• Locking friction • ~3 A (AWG22) • Widely available</td>
-<td>• Not breadboard-friendly</td>
+<td>Fast response of 1Mhz</td>
+<td>high consumption of power</td>
 </tr>
 <tr>
-<td><strong>Option 2:</strong> Molex/JST-XH assortment kit</td>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image/jst-xh.png" data-desc-position="bottom"><img alt="JST-XH kit" src="../image/jst-xh.png"></a></td>
-<td style="text-align: right;"><span class="arithmatex">\(20–\)</span>30</td>
-<td><a href="https://www.mouser.com/datasheet/2/737/Adafruit_4423_Web-3357984.pdf">Adafruit JST-XH kit (PDF)</a></td>
-<td>• Handy assortment for lab builds</td>
-<td>• Bulk purchase; storage overhead</td>
+<td>good rail-to-rail input/output</td>
+<td>Noise offset</td>
 </tr>
 <tr>
-<td><strong>Option 3:</strong> 0.1″ (2.54 mm) pin headers + housings</td>
-<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image/pin-headers-2p54.png" data-desc-position="bottom"><img alt="0.1-inch pin headers" src="../image/pin-headers-2p54.png"></a></td>
-<td style="text-align: right;">Very low</td>
-<td><a href="https://www.adafruit.com/product/400">Adafruit 0.1″ break-away header</a></td>
-<td>• Breadboard-compatible • Lowest cost</td>
-<td>• No latch; can pull loose</td>
+<td>Easy for dynamic signals</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> <strong>JST-XH</strong>
-<a href="../image/jst-xh.png">JST-XH</a>
-on the PCB for field connections; <strong>0.1″ headers</strong> for bench adapters.</p>
-<p><strong>Rationale:</strong> XH gives retention and current capacity on-device; 0.1″ is convenient during prototyping.</p>
+</li>
+</ol>
+<p><strong>Choice 3:</strong> Option 2: MCP603-I/P</p>
+<ol>
+<li>
+<p>MCP603-I/P</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/300/341/924/150%7EC04-018%7EP%2C%20PA%7E8_sml%28200x200%29.jpg" data-desc-position="bottom"><img alt="" src="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/300/341/924/150%7EC04-018%7EP%2C%20PA%7E8_sml%28200x200%29.jpg"></a></p>
+<ul>
+<li>$0.67/each or free</li>
+<li><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP603-I-P/305934?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20228387720&amp;gbraid=0AAAAADrbLlh_36NL6tG2xM8sOANdgFkI4&amp;gclid=CjwKCAjw0sfHBhB6EiwAQtv5qYySUVtsJZWfFdD2i3Bas2rJTBIOqGb7fxJG9O-PzXONhinhUFv1wRoCqyUQAvD_BwE">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Low-power consumption</td>
+<td>Not for dynamic applications</td>
+</tr>
+<tr>
+<td>stable and reliable usage</td>
+<td>Slow signal change</td>
+</tr>
+<tr>
+<td>Low power consumption</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Rationale for choosing MCP6004:</strong> The opamp MCP6004 is given by Microchip and offers low power consumption and has good compatibility with the nano board I am using for the subsystem, which also belongs to Microchip. It is very low cost and there is no need for the level-shifting of the componenets if this componenet is choosen. It's shipping speed is not fast but it is given in our kit so we can easily access it.</p>
 <hr>
 
 
