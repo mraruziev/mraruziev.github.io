@@ -155,7 +155,28 @@ title: Component Selection
 
 
 
-**Rationale for choosing MCP6004:** The opamp MCP6004 is given by Microchip and offers low power consumption and has good compatibility with the nano board I am using for the subsystem, which also belongs to Microchip. It is very low cost and there is no need for the level-shifting of the componenets if this componenet is choosen. It's shipping speed is not fast but it is given in our kit so we can easily access it.
+**Rationale for choosing MCP6004:** The voltage regulator provided to us is very good quality and is very efficient than other options provided. This voltage regulator is known by standing better operation. 
+
+
+## Power supply
+1. 9 V wall adapter barrel jack
+
+
+    * $0.40/each
+    * [Link to product](https://resources.ampheo.com/static/datasheets/cui-inc/dpd090050-p5p-tk.pdf)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Very googd proven eliability                                             | minimum voltage drop requirements      |
+    | Very good output current value of 1.5 A                                 | Low current output limit |
+    | Already provided to us |
+
+**Choice 2:** Option 2: MCP601-I/P IC OPAMP GP 1 CIRCUIT 8DIP
+
+
+**Rationale for choosing MCP6004:** The voltage supply is the easiest way to supply the componenets and the board and is best way.
+
+
 
 
 
