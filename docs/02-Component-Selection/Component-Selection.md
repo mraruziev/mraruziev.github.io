@@ -26,9 +26,6 @@ title: Component Selection
     | Works with all types of nanoboards                      | Needs special PCB layout.                                        |
     | Meets surface mount constraint of project |
 
-    **Other options:** Option 2: OPA333 (TI) op amp
-    Option 3: 1738-SEN0293-ND
-    Option 4: 1027-1030-ND
 
 
 2. 5475 Adafruit
@@ -82,7 +79,7 @@ title: Component Selection
 
     ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/300/341/924/150%7EC04-018%7EP%2C%20PA%7E8_sml%28200x200%29.jpg)
 
-    * $0.40/each or free
+    * $0.40/each
     * [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP601-I-P/305930)
 
     | Pros                                                              | Cons                |
@@ -97,7 +94,7 @@ title: Component Selection
 
     ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/300/341/924/150%7EC04-018%7EP%2C%20PA%7E8_sml%28200x200%29.jpg)
 
-    * $0.67/each or free
+    * $0.67/each
     * [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP603-I-P/305934?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlh_36NL6tG2xM8sOANdgFkI4&gclid=CjwKCAjw0sfHBhB6EiwAQtv5qYySUVtsJZWfFdD2i3Bas2rJTBIOqGb7fxJG9O-PzXONhinhUFv1wRoCqyUQAvD_BwE)
 
     | Pros                                                              | Cons                |
@@ -110,6 +107,55 @@ title: Component Selection
 
 **Rationale for choosing MCP6004:** The opamp MCP6004 is given by Microchip and offers low power consumption and has good compatibility with the nano board I am using for the subsystem, which also belongs to Microchip. It is very low cost and there is no need for the level-shifting of the componenets if this componenet is choosen. It's shipping speed is not fast but it is given in our kit so we can easily access it.
 
+
+## Voltage regulator
+1. LM7805T Linear Voltage regulator
+
+    ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/001/176/122/MFG_5536_TO-220-3L_sml%28200x200%29.jpg)
+
+    * $0.40/each
+    * [Link to product](https://www.digikey.com/en/products/detail/taejin/LM7805T/22237260)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | LVery cheap                                             | Temperature can change when it is at higher difference of voltage      |
+    | Very good output current value of 1.5 A                                 | Limited slew rate |
+    | Already provided to us |
+
+**Choice 2:** Option 2: MCP601-I/P IC OPAMP GP 1 CIRCUIT 8DIP
+
+
+2. LM1084IT-5.0/NOPB
+
+    ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/100/625/374/296%7ET03B%7ENDE%7E3_sml.jpg)
+
+    * 2.83/each
+    * [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM1084IT-5-0-NOPB/363556)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Smaller size and                                             | high consumption of power      |
+    | good rail-to-rail input/output                                 | Noise offset |
+    | Easy for dynamic signals  |
+
+**Choice 3:** Option 2: MCP603-I/P
+
+3. LM2596
+
+    ![](https://i.ebayimg.com/images/g/m10AAOSwquxgONfC/s-l1600.webp)
+
+    * $2.48/each
+    * [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP603-I-P/305934?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlh_36NL6tG2xM8sOANdgFkI4&gclid=CjwKCAjw0sfHBhB6EiwAQtv5qYySUVtsJZWfFdD2i3Bas2rJTBIOqGb7fxJG9O-PzXONhinhUFv1wRoCqyUQAvD_BwE)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Low-power consumption                                            | Not for dynamic applications      |
+    | stable and reliable usage                                 | Slow signal change |
+    | Low power consumption |
+
+
+
+**Rationale for choosing MCP6004:** The opamp MCP6004 is given by Microchip and offers low power consumption and has good compatibility with the nano board I am using for the subsystem, which also belongs to Microchip. It is very low cost and there is no need for the level-shifting of the componenets if this componenet is choosen. It's shipping speed is not fast but it is given in our kit so we can easily access it.
 
 
 
