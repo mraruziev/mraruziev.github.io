@@ -4,7 +4,7 @@ title: Schematic
 
 ## Overview
 
-This schematic is design of subsystem of Water conductivity used for the system of Air/Water quality in my team.
+This website is design of subsystem of Water conductivity used for the system of Air/Water quality in my team.
 
 This subsystem detects changes in resistance through water conductivity and transforms the data into a voltage, amplifies and filters the signal, and then provides the analog voltage to the microcontroller's ADC input.  The signal is transformed into a digital value by the microcontroller, which then sends that value to Neel's digital subsystem.
 
