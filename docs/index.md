@@ -11,24 +11,24 @@ as part of<br>
 for<br>
 <font size= "5"> Team 210 </font><br>
 
-**Submission: september, 03, 2025**
+**Updated: October, 25 2025 11 AM**
 </center>
 
 ## Introduction
 
-* There are going to be many parts of projects that I will be sharing through this website. Stay tuned to see more from my individual contribution for team projects for EGR 304.
+* In this project, our team aims to build cheap system for monitoring air and water quality, specifically for individuals and communities, where pollution levels are high and access to monitoring system is very limitied. 
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+* My part of the subsystem for this project is about<ins>checking conductivity in the water through the resistive sensor. </ins> There is going to be real-time feedback through visual alerts. There are going to be many parts of projects that I will be sharing through this website. Stay tuned to see more from my individual contribution for team projects for EGR 304.
+* For more information on how we integrate pH sensors, opacity sensors and measure for air contamination, water safety parameters, please check our [team report.](https://egr304-2025-f-210.github.io/)
 
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
+* 
 * Content should also help an unfamiliar reader navigate to areas of interest. Information like:
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
+To review the details listed of the product requirements, you can review it in the ["Product Requirements"](https://egr304-2025-f-210.github.io/04-Product-Requirements/) section of the datasheet.
 
 For all the sections
