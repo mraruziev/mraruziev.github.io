@@ -26,8 +26,9 @@ for<br>
 
 ### My Contribution
 
-* 
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
+* Working on schematic, block diagram and software proposal of resistive snesor
+* User needs and benchmarking
+* Design Ideation
 
 To review the details listed of the product requirements, you can review it in the ["Product Requirements"](https://egr304-2025-f-210.github.io/04-Product-Requirements/) section of the datasheet.
 
