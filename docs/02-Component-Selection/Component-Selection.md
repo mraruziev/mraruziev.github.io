@@ -9,7 +9,8 @@ title: Component Selection
 > There are only 2 components in my subsystem and in this website I will be sharing about those and rationale why those are choosen over other possible options.
 
 
-## **Block:** resistive sensor **Role:** Measures conductivity, resistivity of the water 
+## **Block:** resistive sensor 
+**Role:** Measures conductivity, resistivity of the water 
 
 | Solution | Photo | Cost | Link | Pros | Cons |
 | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -20,7 +21,8 @@ title: Component Selection
 **Block:** resistive sensor  
 **Rationale:** This resistive sensor is very affordable and is compatible with any nanoboard, including our own. It provides a straightforward measurement of resistance changes. We need it for filtering and amplification of the signal coming through the resistive sensor, and this component exactly does that for a low price. If ordered today, its shipping is expected in 5 days.
 
-## **Block**: Op amp **Role:** 
+## **Block**: Op amp 
+**Role:** 
 
 | Solution | Photo | Cost | Link | Pros | Cons |
 | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -46,9 +48,9 @@ title: Component Selection
 
 | Solution | Photo | Cost | Link | Pros | Cons |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| **Option 1:** 9 V wall adapter |  | $6.99 | [Amazon page](https://a.co/d/5kdQfle) | Very good product reliability, very good output current of 1.5 A | Minimum voltage drop, low current output, limit |
-| **Option 2:** 2×18650 holder (7.4 V nominal) \+ buck to 5 V | | $1.95 | [Digikey product page](https://www.digikey.com/en/products/detail/sparkfun-electronics/09925/6161750?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgSxdqAKiMGbhVU1YZ4yrhJC&gclid=CjwKCAjwjffHBhBuEiwAKMb8pMX1Q0fG5C3S9-WLJntinuMTixVbnmRQIk70FfwKcjoj_64dR--ZHRoCQQoQAvD_BwE) | Reusable cells with high power | Li-ion safety when charging is required |
-| **Option 3:**  6×AA holder (9 V alkaline / \~7.2 V NiMH)  |  | $2.37 | [Digikey product page](https://www.digikey.com/en/products/detail/mpd-memory-protection-devices-/BH26AASF/470766?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgSxdqAKiMGbhVU1YZ4yrhJC&gclid=CjwKCAjwjffHBhBuEiwAKMb8pKcbMlbAca3yG5dnokIfWVpUYWIoa5xC4cm2fcq-pG9dO21qW9ZxvhoChp0QAvD_BwE) | Cheap, field-portable | Voltage drops fast under load |
+| **Option 1:** 9 V wall adapter | ![](https://m.media-amazon.com/images/I/61AHD44j0qL._AC_SX679_.jpg) | $6.99 | [Amazon page](https://a.co/d/5kdQfle) | Very good product reliability, very good output current of 1.5 A | Minimum voltage drop, low current output, limit |
+| **Option 2:** 2×18650 holder (7.4 V nominal) \+ buck to 5 V | ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/002/457/526/PRT-09925_sml.jpg) | $1.95 | [Digikey product page](https://www.digikey.com/en/products/detail/sparkfun-electronics/09925/6161750?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgSxdqAKiMGbhVU1YZ4yrhJC&gclid=CjwKCAjwjffHBhBuEiwAKMb8pMX1Q0fG5C3S9-WLJntinuMTixVbnmRQIk70FfwKcjoj_64dR--ZHRoCQQoQAvD_BwE) | Reusable cells with high power | Li-ion safety when charging is required |
+| **Option 3:**  6×AA holder (9 V alkaline / \~7.2 V NiMH)  | ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/003/219/285/BH26AASF_sml.jpg) | $2.37 | [Digikey product page](https://www.digikey.com/en/products/detail/mpd-memory-protection-devices-/BH26AASF/470766?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgSxdqAKiMGbhVU1YZ4yrhJC&gclid=CjwKCAjwjffHBhBuEiwAKMb8pKcbMlbAca3yG5dnokIfWVpUYWIoa5xC4cm2fcq-pG9dO21qW9ZxvhoChp0QAvD_BwE) | Cheap, field-portable | Voltage drops fast under load |
 
 **Choice:** LM7805T  
 **Rationale:** The voltage supply is the easiest way to supply the components and the board, and is the best way.

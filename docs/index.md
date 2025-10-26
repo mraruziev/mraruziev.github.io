@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6">Asadbek Datasheet</font><br>
 as part of<br>
-<font size= "8"> Water and air quality projet</font><br>
+<font size= "8"> VibeWater</font><br>
 for<br>
 <font size= "5"> Team 210 </font><br>
 
@@ -16,7 +16,7 @@ for<br>
 
 ## Introduction
 
-* In this project, our team aims to build cheap system for monitoring air and water quality, specifically for individuals and communities, where pollution levels are high and access to monitoring system is very limitied. 
+* Introducing VibeWater - a new era in the water quality. In this project, our team aims to build cheap system for monitoring water quality, specifically for individuals and communities, where pollution levels are high and access to monitoring system is very limitied. 
 
 ### Project Summary
 
