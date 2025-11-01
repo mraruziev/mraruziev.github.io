@@ -40,5 +40,3 @@ To review the details of the data sheet, hyperlinks are provided below: <br>
 [3. BOM](https://mraruziev.github.io/03-BOM/BOM/) <br> 
 [4. Schematic](https://mraruziev.github.io/04-Schematic/schematic/) <br> 
 [5. Power Budget](https://mraruziev.github.io/05-Power-Budget/Power-Budget/) <br> 
-
-For all the sections
