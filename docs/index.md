@@ -11,7 +11,7 @@ as part of<br>
 for<br>
 <font size= "5"> Team 210 </font><br>
 
-**Updated: October, 25 2025 11 AM**
+**Updated: October 2025**
 </center>
 
 ## Introduction
@@ -20,15 +20,16 @@ for<br>
 
 ### Project Summary
 
-* My part of the subsystem for this project is about<ins>checking conductivity in the water through the resistive sensor. </ins> There is going to be real-time feedback through visual alerts. There are going to be many parts of projects that I will be sharing through this website. Stay tuned to see more from my individual contribution for team projects for EGR 304.
+* My part of the subsystem for this project is about<ins>checking conductivity in the water for the safety of water through the coper probe. </ins> There is going to be real-time feedback through visual alerts like LEDs. There are going to be many parts of projects that I will be sharing through this website. Stay tuned to see more from my individual contribution for team projects for EGR 304.
 * For more information on how we integrate pH sensors, opacity sensors and measure for air contamination, water safety parameters, please check our [team report.](https://egr304-2025-f-210.github.io/)
 
 
 ### My Contribution
 
-* Working on schematic, block diagram and software proposal of resistive snesor
+* Working on schematic, block diagram and software proposal, coding the subsystem of zinc probe for measuring resistivity, conductivity
 * User needs and benchmarking
 * Design Ideation
+* Sending data to the Neel's board - main board
 
 To review the details listed of the product requirements, you can review it in the ["Product Requirements"](https://egr304-2025-f-210.github.io/04-Product-Requirements/) section of the datasheet.
 
