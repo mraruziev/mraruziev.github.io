@@ -8,9 +8,17 @@ title: Component Selection
 
 > There are only 2 components in my subsystem and in this website I will be sharing about those and rationale why those are choosen over other possible options.
 
+## **Block:** resistive sensor **Role:** Measures conductivity, resistivity of the water 
 
-## **Block:** resistive sensor 
-**Role:** Measures conductivity, resistivity of the water 
+| Solution | Photo | Cost | Link | Pros | Cons |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| **Option 1:** 99.99% High Purity Zinc Sheet Zinc Metal Strip  | https://m.media-amazon.com/images/I/41+K9kPmmJL._SX342_SY445_QL70_FMwebp_.jpg | $9.99 | [Amazon page](https://a.co/d/eRWDBaw) | has good corrosion resistance in water and moderate electrical conductivity. Zinc coating is very easy to do | Possibility of chemical polarization in water, short lifespan at higher temperatures, inconsistent surface area |
+| **Option 2:** Brass | https://m.media-amazon.com/images/I/61jDBblyKiL._SX522_.jpg | $8.99 | [Amazon link page](https://a.co/d/g7wbcfI) | cheap, decent corrosion resistance in water (admiralty brass), best mechanical properties  | Contains copper, which can leach into water, is less chemically stable, and can have inconsistent electrical contact |
+| **Option 3:** Silver leaf sheets | https://m.media-amazon.com/images/I/7177HHGoueL._AC_SX679_.jpg | $8.39 | [Amazon page](https://a.co/d/fAGRZUo) | very high conductivity, antimicrobial, reasonable corrosion resistance | Mechanically soft, forms silver sulfide, which can affect readings over time |
+
+
+## **Block:** Probe
+**Role:** Measures conductivity, resistivity of the water directly
 
 | Solution | Photo | Cost | Link | Pros | Cons |
 | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -48,7 +56,7 @@ title: Component Selection
 
 | Solution | Photo | Cost | Link | Pros | Cons |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| **Option 1:** 9 V wall adapter | ![](https://m.media-amazon.com/images/I/61AHD44j0qL._AC_SX679_.jpg) | $6.99 | [Amazon page](https://a.co/d/5kdQfle) | Very good product reliability, very good output current of 1.5 A | Minimum voltage drop, low current output, limit |
+| **Option 1:** 9 V wall adapter SWI12-12-E-P5 | ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/002/375/864/MFG_SWI12-E_sml%28200x200%29.jpg) | $15.86 | [Digikey page](https://www.digikey.com/en/products/detail/cui-inc/SWI12-12-E-P5/5287244?gclsrc=aw.ds&gad_source=1&gad_campaignid=120565755&gbraid=0AAAAADrbLlhCXftiJluGgUch6rsfE1-Oc&gclid=Cj0KCQjwvJHIBhCgARIsAEQnWlB4qBOdHqSqQgSQOPAMrwMIgFKNVal9buI3OzWwKYeVxJLDq076t5gaAoJ2EALw_wcB) | Regulated 9 V output at 1.2 A, Universal AC input (90–264 VAC)	 | higher cost than most of other options, low current output, it is limited with low power capacity(12 W max),  no buil-in overcurrent protection output |
 | **Option 2:** 2×18650 holder (7.4 V nominal) \+ buck to 5 V | ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/002/457/526/PRT-09925_sml.jpg) | $1.95 | [Digikey product page](https://www.digikey.com/en/products/detail/sparkfun-electronics/09925/6161750?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgSxdqAKiMGbhVU1YZ4yrhJC&gclid=CjwKCAjwjffHBhBuEiwAKMb8pMX1Q0fG5C3S9-WLJntinuMTixVbnmRQIk70FfwKcjoj_64dR--ZHRoCQQoQAvD_BwE) | Reusable cells with high power | Li-ion safety when charging is required |
 | **Option 3:**  6×AA holder (9 V alkaline / \~7.2 V NiMH)  | ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/003/219/285/BH26AASF_sml.jpg) | $2.37 | [Digikey product page](https://www.digikey.com/en/products/detail/mpd-memory-protection-devices-/BH26AASF/470766?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgSxdqAKiMGbhVU1YZ4yrhJC&gclid=CjwKCAjwjffHBhBuEiwAKMb8pKcbMlbAca3yG5dnokIfWVpUYWIoa5xC4cm2fcq-pG9dO21qW9ZxvhoChp0QAvD_BwE) | Cheap, field-portable | Voltage drops fast under load |
 
