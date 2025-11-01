@@ -32,4 +32,12 @@ for<br>
 
 To review the details listed of the product requirements, you can review it in the ["Product Requirements"](https://egr304-2025-f-210.github.io/04-Product-Requirements/) section of the datasheet.
 
+
+To review the details of the data sheet, hyperlinks are provided below: <br>
+[1. Block Diagram](https://mraruziev.github.io/01-Block-Diagram/Block-Diagram/) <br> 
+[2. Component Selection](https://mraruziev.github.io/02-Component-Selection/Component-Selection/) <br> 
+[3. BOM](https://mraruziev.github.io/03-BOM/BOM/) <br> 
+[4. Schematic](https://mraruziev.github.io/04-Schematic/schematic/) <br> 
+[5. Power Budget](https://mraruziev.github.io/05-Power-Budget/Power-Budget/) <br> 
+
 For all the sections
