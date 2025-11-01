@@ -6,9 +6,9 @@ title: Component Selection
 
 
 
-> There are only 2 components in my subsystem and in this website I will be sharing about those and rationale why those are choosen over other possible options.
+> There are only few components in my subsystem and in this website I will be sharing about those and rationale why those are choosen over other possible options.
 
-## **Block:** resistive sensor **Role:** Measures conductivity, resistivity of the water 
+## **Block:** Probe **Role:** Measures conductivity, resistivity of the water 
 
 | Solution | Photo | Cost | Link | Pros | Cons |
 | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -17,20 +17,6 @@ title: Component Selection
 | **Option 3:** Silver leaf sheets | ![](https://m.media-amazon.com/images/I/7177HHGoueL._AC_SX679_.jpg) | $8.39 | [Amazon page](https://a.co/d/fAGRZUo) | very high conductivity, antimicrobial, reasonable corrosion resistance | Mechanically soft, forms silver sulfide, which can affect readings over time |
 
 
-## **Block:** Probe
-**Role:** Measures conductivity, resistivity of the water directly
-
-| Solution | Photo | Cost | Link | Pros | Cons |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| **Option 1:** 1528-2335-ND Digikey resistive sensor | ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/100/948/661/SEN0293_sml.jpg) | $3.95 | [Digikey product page](https://www.digikey.com/en/products/detail/adafruit-industries-llc/166/7393589?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLliL8TzXuQg7x9tLNvO4PqNgi&gclid=CjwKCAjw0sfHBhB6EiwAQtv5qagfMTuvM6EWfkF-lDEyOs6MVN03ChBavjL6tKcwhR8kXR566HCPExoCmlEQAvD_BwE) | The product itself is Inexpensive and works with any board It meets the surface mount requirements of the project | Shiping is costly, needs a special PCB layout |
-| **Option 2:** 5475 Adafruit | ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/003/217/472/MFG_5475_sml%28200x200%29.jpg) | $4.95 | [Digikey product page](https://www.digikey.com/en/products/detail/adafruit-industries-llc/5475/22162362?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLliA2QPoBJaKgRRDCe-E96ysN&gclid=CjwKCAjw0sfHBhB6EiwAQtv5qYGZCGvvPbDwf9DDm2bSefonA0HU3gFHJq1bK3vT8t_ols2fsJB0wxoCc_sQAvD_BwE) | Widely used, better lifespan, easier interfacing for components | Possible nonlinearity in the results |
-| **Option 3:** 1738-SEN0293-ND DFrobot | ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/100/948/661/SEN0293_sml.jpg) | $6.50 | [Digikey page](https://www.digikey.com/en/products/detail/dfrobot/SEN0293/10136549?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLliA2QPoBJaKgRRDCe-E96ysN&gclid=CjwKCAjw0sfHBhB6EiwAQtv5qb1dP63M7VRu8O6ERff4Tu-m0pQPTGdx5_IjUZ6b_PNYJ37PUhoaVBoCrzEQAvD_BwE) | Wider amount of page, good amount of time for response, thin form factor | Less precise in measurements |
-
-**Block:** resistive sensor  
-**Rationale:** This resistive sensor is very affordable and is compatible with any nanoboard, including our own. It provides a straightforward measurement of resistance changes. We need it for filtering and amplification of the signal coming through the resistive sensor, and this component exactly does that for a low price. If ordered today, its shipping is expected in 5 days.
-
-## **Block**: Op amp 
-**Role:** 
 
 | Solution | Photo | Cost | Link | Pros | Cons |
 | :---- | :---- | :---- | :---- | :---- | :---- |
