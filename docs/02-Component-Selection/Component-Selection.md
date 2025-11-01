@@ -5,14 +5,13 @@ title: Component Selection
 ## Examples
 
 
-
-> There are only few components in my subsystem and in this website I will be sharing about those and rationale why those are choosen over other possible options.
+> There are only few components in my subsystem and in this website I will be sharing about those and rationale why those are choosen over other possible options. I choose to use Zinc probe as main component, because it is good and I only need to check resistivity, conductivity through the probe material. 
 
 ## **Block:** Probe **Role:** Measures conductivity, resistivity of the water 
 
 | Solution | Photo | Cost | Link | Pros | Cons |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| **Option 1:** 99.99% High Purity Zinc Sheet Zinc Metal Strip  | ![](https://m.media-amazon.com/images/I/41+K9kPmmJL._SX342_SY445_QL70_FMwebp_.jpg) | $9.99 | [Amazon page](https://a.co/d/eRWDBaw) | has good corrosion resistance in water and moderate electrical conductivity. Zinc coating is very easy to do | Possibility of chemical polarization in water, short lifespan at higher temperatures, inconsistent surface area |
+| **Option 1:** DEVMO 2PCS TM Card Probe DS9092 Zinc Alloy Probe iButton Alloy Probe/Reader Without LED  | ![](https://m.media-amazon.com/images/I/61aojBb9EhL._SL1500_.jpg) | $13.99 | [Amazon page](https://a.co/d/jj5r3VG) | has good corrosion resistance in water and moderate electrical conductivity. Zinc coating is very easy to do | Possibility of chemical polarization in water, short lifespan at higher temperatures, inconsistent surface area |
 | **Option 2:** Brass | ![](https://m.media-amazon.com/images/I/61jDBblyKiL._SX522_.jpg) | $8.99 | [Amazon link page](https://a.co/d/g7wbcfI) | cheap, decent corrosion resistance in water (admiralty brass), best mechanical properties  | Contains copper, which can leach into water, is less chemically stable, and can have inconsistent electrical contact |
 | **Option 3:** Silver leaf sheets | ![](https://m.media-amazon.com/images/I/7177HHGoueL._AC_SX679_.jpg) | $8.39 | [Amazon page](https://a.co/d/fAGRZUo) | very high conductivity, antimicrobial, reasonable corrosion resistance | Mechanically soft, forms silver sulfide, which can affect readings over time |
 
