@@ -6,10 +6,9 @@ tags:
 ---
 
 ## Overview
-written context
+ The BOM lists all required components, quantities, and relevant sourcing details needed for the project, supporting proper planning and purchasing of electronic parts.
 
 ## Bill of Materials  (as Image)
-![](BOM_Ruziev.png){style width: "2000"}
+![](BOM_R.png){style width: "2000"}
 **Figure 2:** Example Bill of Materials as a screenshot.
 
-As you can see, the text can be difficult to read without opening the image.
