@@ -14,4 +14,4 @@ To see more about block diagram of my other teammates, please visit the team web
 
 ## Block Diagram 
 Following is my block diagram and is made in draw.io
-![Asadbek's Indivial Block diagram](Block diagram EGR 304 individual.drawio (2).png)
+![finalpic.drawio.png)
