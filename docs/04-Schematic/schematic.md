@@ -16,4 +16,4 @@ In my subsystem there is an LED with a current-limiting resistor, a pushbutton f
 <br>
 ## Resouces
 
-The schematic as a PDF download is available [*here*](schematic_jlc.pdf), and the Zip folder of the project [*here*](PIC circuit.zip).
+The schematic as a PDF download is available [*here*](schema.pdf), and the Zip folder of the project [*here*](PIC circuit.zip).
