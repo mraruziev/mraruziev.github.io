@@ -10,7 +10,7 @@ This subsystem detects changes in resistance through water conductivity and tran
 <br>
 In my subsystem there is an LED with a current-limiting resistor, a pushbutton for user input, a PIC18F57Q43 Curiosity Nano microcontroller, an MCP6004 operational amplifier for signal amplification, and an LM7805 voltage regulator for power supply as well as resistive sensor.  My initials appear on every custom symbol in the schematic.
 <br>
-![schematic](schema_final.pnga.png){style width:"350" height:"300;"}
+![schematic](finalpic.drawio.png){style width:"350" height:"300;"}
 **Figure 01:** Showing my own schematic.
 
 <br>
