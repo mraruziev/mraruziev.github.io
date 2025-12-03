@@ -17,4 +17,4 @@ This PCB is designed to support a conductivity sensor, PIC Nano MicroChip microc
 **Figure 2:** Showing Asadbek's Subsystem PCB Rear
 
 ## Resources
-The PCBs project zip folder is a downloadable zip file [*here*](Individual subsystem final.zip). The PCBs pdf file containing top and bottom layers can be found [*here*](Individual subsystem layers.pdf). Then the PCBs Gerber files can be found [*here*](Asadbek Ruziev JLCPCB.zip).
+The PCBs project zip folder is a downloadable zip file [*here*](Individual subsystem final.zip). The PCBs pdf file containing top and bottom layers can be found [*here*](Individual subsystem layers.pdf). Then the PCBs Gerber files can be found [*here*](Gerber.zip).
