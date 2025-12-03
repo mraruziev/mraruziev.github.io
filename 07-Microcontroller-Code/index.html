@@ -9,16 +9,16 @@
       
       
       
-        <link rel="canonical" href="https://mraruziev.github.io/04-Schematic/schematic/">
+        <link rel="canonical" href="https://mraruziev.github.io/07-Microcontroller-Code/">
       
       
-        <link rel="prev" href="../../03-BOM/BOM/">
+        <link rel="prev" href="../06-PCB-Design/PCB-Design/">
       
       
-        <link rel="next" href="../../05-Power-Budget/Power-Budget/">
+        <link rel="next" href="../Appendix/">
       
       
-      <link rel="icon" href="../../static/logo304.png">
+      <link rel="icon" href="../static/logo304.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
             
 
@@ -26,14 +26,14 @@
 
     
       
-        <title>Schematic - EGR 304 Asadbek Data Sheet</title>
+        <title>Individal Subsystem code for the PIC microcontroller - EGR 304 Asadbek Data Sheet</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.66ac8b77.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.66ac8b77.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,9 +52,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -63,7 +63,7 @@
     
 
 
-  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -106,9 +106,9 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="EGR 304 Asadbek Data Sheet" class="md-header__button md-logo" aria-label="EGR 304 Asadbek Data Sheet" data-md-component="logo">
+    <a href=".." title="EGR 304 Asadbek Data Sheet" class="md-header__button md-logo" aria-label="EGR 304 Asadbek Data Sheet" data-md-component="logo">
       
-  <img src="../../static/logo304.svg" alt="logo">
+  <img src="../static/logo304.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -125,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Schematic
+              Individal Subsystem code for the PIC microcontroller
             
           </span>
         </div>
@@ -200,7 +200,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href=".." class="md-tabs__link">
         
   
     
@@ -219,7 +219,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../01-Block-Diagram/Block-Diagram/" class="md-tabs__link">
+        <a href="../01-Block-Diagram/Block-Diagram/" class="md-tabs__link">
           
   
     
@@ -239,7 +239,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../02-Component-Selection/Component-Selection/" class="md-tabs__link">
+        <a href="../02-Component-Selection/Component-Selection/" class="md-tabs__link">
           
   
     
@@ -259,12 +259,72 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../03-BOM/BOM/" class="md-tabs__link">
+        <a href="../03-BOM/BOM/" class="md-tabs__link">
           
   
     
   
   03 BOM
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../04-Schematic/schematic/" class="md-tabs__link">
+          
+  
+    
+  
+  04 Schematic
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../05-Power-Budget/Power-Budget/" class="md-tabs__link">
+          
+  
+    
+  
+  05 Power Budget
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../06-PCB-Design/PCB-Design/" class="md-tabs__link">
+          
+  
+    
+  
+  06 PCB Design
 
         </a>
       </li>
@@ -286,66 +346,6 @@
   
     
   
-  04 Schematic
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../05-Power-Budget/Power-Budget/" class="md-tabs__link">
-          
-  
-    
-  
-  05 Power Budget
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../06-PCB-Design/PCB-Design/" class="md-tabs__link">
-          
-  
-    
-  
-  06 PCB Design
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../07-Microcontroller-Code/" class="md-tabs__link">
-          
-  
-    
-  
   07 Microcontroller Code
 
         </a>
@@ -361,7 +361,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../Appendix/" class="md-tabs__link">
+        <a href="../Appendix/" class="md-tabs__link">
           
   
     
@@ -402,9 +402,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="EGR 304 Asadbek Data Sheet" class="md-nav__button md-logo" aria-label="EGR 304 Asadbek Data Sheet" data-md-component="logo">
+    <a href=".." title="EGR 304 Asadbek Data Sheet" class="md-nav__button md-logo" aria-label="EGR 304 Asadbek Data Sheet" data-md-component="logo">
       
-  <img src="../../static/logo304.svg" alt="logo">
+  <img src="../static/logo304.svg" alt="logo">
 
     </a>
     EGR 304 Asadbek Data Sheet
@@ -431,7 +431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -471,7 +471,7 @@
         
   
   
-    <a href="../../01-Block-Diagram/Block-Diagram/" class="md-nav__link">
+    <a href="../01-Block-Diagram/Block-Diagram/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -517,7 +517,7 @@
         
   
   
-    <a href="../../02-Component-Selection/Component-Selection/" class="md-nav__link">
+    <a href="../02-Component-Selection/Component-Selection/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -563,7 +563,7 @@
         
   
   
-    <a href="../../03-BOM/BOM/" class="md-nav__link">
+    <a href="../03-BOM/BOM/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -577,137 +577,6 @@
     </a>
   
 
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    
-    
-      
-        
-      
-    
-    
-      
-        
-        
-      
-      
-    
-    
-      
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
-            
-  
-  <span class="md-ellipsis">
-    04 Schematic
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            04 Schematic
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Schematic
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Schematic
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      Overview
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#resouces" class="md-nav__link">
-    <span class="md-ellipsis">
-      Resouces
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -740,7 +609,53 @@
         
   
   
-    <a href="../../05-Power-Budget/Power-Budget/" class="md-nav__link">
+    <a href="../04-Schematic/schematic/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    04 Schematic
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../05-Power-Budget/Power-Budget/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -786,7 +701,7 @@
         
   
   
-    <a href="../../06-PCB-Design/PCB-Design/" class="md-nav__link">
+    <a href="../06-PCB-Design/PCB-Design/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -809,6 +724,8 @@
       
   
   
+    
+  
   
   
     
@@ -821,33 +738,46 @@
     
     
       
+        
+        
+      
       
     
     
       
-        
-        
-      
     
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
-  
-  
-    <a href="../../07-Microcontroller-Code/" class="md-nav__link">
-      
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
   
   <span class="md-ellipsis">
     07 Microcontroller Code
   </span>
   
 
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            07 Microcontroller Code
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -890,7 +820,7 @@
         
   
   
-    <a href="../../Appendix/" class="md-nav__link">
+    <a href="../Appendix/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
@@ -943,9 +873,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#resouces" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Resouces
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zip-of-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zip of code
     </span>
   </a>
   
@@ -966,7 +905,7 @@
                   
 
   
-    <a href="https://github.com/mraruziev/mraruziev.github.io/edit/main/docs/04-Schematic/schematic.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/mraruziev/mraruziev.github.io/edit/main/docs/07-Microcontroller-Code/index.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"></path></svg>
     </a>
@@ -974,20 +913,161 @@
   
 
 
-  <h1>Schematic</h1>
+  <h1>Individal Subsystem code for the PIC microcontroller</h1>
 
 <h2 id="overview">Overview</h2>
-<p>This website is design of subsystem of Water conductivity used for the system of Air/Water quality in my team.
-<br>
-This subsystem detects changes in resistance through water conductivity and transforms the data into a voltage, amplifies and filters the signal, and then provides the analog voltage to the microcontroller's ADC input. The signal from the zinc probe  is transformed into a digital value by the microcontroller, which then sends that value to Neel's digital subsystem.
-<br>
-In my subsystem there is an LED with a current-limiting resistor, a pushbutton for user input, a PIC18F57Q43 Curiosity Nano microcontroller, an MCP6004 operational amplifier for signal amplification, and an LM7805 voltage regulator for power supply as well as resistive sensor.  My initials appear on every custom symbol in the schematic.
-<br>
-<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../schematic_final.png" data-desc-position="bottom"><img alt="schematic" height:_300_="height:&quot;300;&quot;" src="../schematic_final.png" style="style" width:_350_="width:&quot;350&quot;"></a>
-<strong>Figure 01:</strong> Showing my own schematic.</p>
-<p><br></p>
-<h2 id="resouces">Resouces</h2>
-<p>The schematic as a PDF download is available <a href="../schematic_jlc.pdf"><em>here</em></a>, and the Zip folder of the project <a href="../PIC%20circuit.zip"><em>here</em></a>.</p>
+<p>To see more about codes of other subsystems of my other teammates, please visit the team website <a href="https://egr304-2025-f-210.github.io/">"here"</a> for more details. </p>
+<h2 id="_1"></h2>
+<p>Following is my code for my subsystem that checks water quality through resistive sensor. Autogenerated files and the MCC Melody configuration can be downloaded in the project package.
+</p><div class="highlight"><pre><span></span><code>#include "mcc_generated_files/system/system.h"
+#include "mcc_generated_files/system/pins.h"   // required for IO_RB4_GetValue(), IO_RC0_SetHigh/Low, IO_RC3_*, etc.
+
+#include &lt;xc.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdint.h&gt;
+#include &lt;stdbool.h&gt;
+
+// Redirect printf() to UART1
+void putch(char data)
+{
+    while (!UART1_IsTxReady());
+    UART1_Write((uint8_t)data);
+}
+
+int main(void)
+{
+    SYSTEM_Initialize();
+    ADC_Initialize();
+
+    /* ========== HARDWARE CONFIG ========== */
+    const float VREF = 5.0f;             // ADC reference
+    const float R_FIXED = 10000.0f;      // series resistor ohms
+    const uint16_t ADC_MAX = 4095u;      // 12-bit ADC
+
+    /* ========== WATER SAFETY THRESHOLDS (ohms) ==========
+
+         &lt;= 5 kΩ  =&gt; NOT SAFE (contaminated)
+         &gt;= 30 kΩ =&gt; SAFE (purer)
+       Values between are treated "MAYBE SAFE".
+    */
+    const float NOT_SAFE_THRESHOLD_LOW = 5000.0f;   // &lt;= 5 kΩ =&gt; NOT SAFE
+    const float SAFE_THRESHOLD_HIGH     = 30000.0f; // &gt;= 30 kΩ =&gt; SAFE
+
+    /* Button macro (assume active-low button on RB4). Change if different. */
+#define BUTTON_PRESSED()   (!IO_RB4_GetValue())
+
+    bool paused = false;
+    bool prev_button_state = BUTTON_PRESSED();
+
+
+
+    while (1)
+    {
+        /* --- Button toggle (with debounce) --- */
+        bool cur_button = BUTTON_PRESSED();
+        if (cur_button &amp;&amp; !prev_button_state)   // detected press
+        {
+            __delay_ms(40); // debounce
+            if (BUTTON_PRESSED())
+            {
+                paused = !paused;
+                __delay_ms(150);
+            }
+        }
+        prev_button_state = cur_button;
+
+        /* If paused: turn RC0 &amp; RC3 off, skip sampling/printing */
+        if (paused)
+        {
+            IO_RC0_SetLow();  // LED off
+            IO_RC3_SetLow();  // signal line low while paused
+            continue;
+        }
+
+        /* === Read ADC and compute water resistance === */
+        uint16_t adc = (uint16_t)ADC_ChannelSelectAndConvert(POT);
+        float voltage = (adc * VREF) / (float)ADC_MAX;
+
+        float R_water = -1.0f;
+        bool valid = true;
+
+        if (adc == 0)
+        {
+            valid = false; // sensor open / dry
+        }
+        else if (adc &gt;= ADC_MAX)
+        {
+            R_water = 0.0f; // short
+        }
+        else
+        {
+            R_water = R_FIXED * (voltage / (VREF - voltage));
+        }
+
+        /* === Decide state and drive RC0 LED + RC3 signal line ===
+           - RC0: LED (on when NOT SAFE)
+           - RC3: signal wire for other subsystem (HIGH when NOT SAFE, LOW otherwise)
+        */
+        const char *state_text;
+        if (!valid)
+        {
+            state_text = "UNKNOWN (sensor dry)";
+            IO_RC0_SetLow();
+            IO_RC3_SetLow();   // tell other board "not NOT_SAFE" / safe/no-alarm
+        }
+        else
+        {
+            if (R_water &lt;= NOT_SAFE_THRESHOLD_LOW)
+            {
+                state_text = "NOT SAFE";
+                IO_RC0_SetHigh(); // local LED ON
+                IO_RC3_SetHigh(); // notify other board: NOT SAFE
+            }
+            else if (R_water &gt;= SAFE_THRESHOLD_HIGH)
+            {
+                state_text = "SAFE";
+                IO_RC0_SetLow();
+                IO_RC3_SetLow();
+            }
+            else
+            {
+                state_text = "MAYBE SAFE";
+                IO_RC0_SetLow();
+                IO_RC3_SetLow();
+            }
+        }
+
+        /* === Print output via UART (unchanged) === */
+        if (!valid)
+        {
+            printf("ADC:%4u  V:%.3f V  Water: &gt;1 MΩ  State: %s\r\n",
+                   adc, voltage, state_text);
+        }
+        else if (R_water &gt;= 1000000.0f)
+        {
+            printf("ADC:%4u  V:%.3f V  Water: %.2f MΩ  State: %s\r\n",
+                   adc, voltage, R_water / 1e6f, state_text);
+        }
+        else if (R_water &gt;= 1000.0f)
+        {
+            printf("ADC:%4u  V:%.3f V  Water: %.2f kΩ  State: %s\r\n",
+                   adc, voltage, R_water / 1000.0f, state_text);
+        }
+        else
+        {
+            printf("ADC:%4u  V:%.3f V  Water: %.2f Ω   State: %s\r\n",
+                   adc, voltage, R_water, state_text);
+        }
+
+        __delay_ms(500);
+    }
+
+#undef BUTTON_PRESSED
+    return 0;
+}
+</code></pre></div><p></p>
+<h2 id="zip-of-code">Zip of code</h2>
+<p>The MPLAB IDE project is available <a href="finalpic.zip"><em>here</em></a>.</p>
 
 
 
@@ -1026,7 +1106,7 @@ In my subsystem there is an LED with a current-limiting resistor, a pushbutton f
       <nav class="md-footer__inner md-grid" aria-label="Footer">
         
           
-          <a href="../../03-BOM/BOM/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Bill of Materials">
+          <a href="../06-PCB-Design/PCB-Design/" class="md-footer__link md-footer__link--prev" aria-label="Previous: PCB">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
@@ -1036,20 +1116,20 @@ In my subsystem there is an LED with a current-limiting resistor, a pushbutton f
                 Previous
               </span>
               <div class="md-ellipsis">
-                Bill of Materials
+                PCB
               </div>
             </div>
           </a>
         
         
           
-          <a href="../../05-Power-Budget/Power-Budget/" class="md-footer__link md-footer__link--next" aria-label="Next: Power Budget">
+          <a href="../Appendix/" class="md-footer__link md-footer__link--next" aria-label="Next: Appendix - Main Page">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Power Budget
+                Appendix - Main Page
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1094,12 +1174,12 @@ In my subsystem there is an LED with a current-limiting resistor, a pushbutton f
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.follow", "navigation.top", "navigation.path", "navigation.indexes", "navigation.prune", "content.action.edit", "navigation.footer"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.follow", "navigation.top", "navigation.path", "navigation.indexes", "navigation.prune", "content.action.edit", "navigation.footer"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.3220b9d7.min.js"></script>
+      <script src="../assets/javascripts/bundle.3220b9d7.min.js"></script>
       
-        <script src="../../javascripts/mathjax.js"></script>
+        <script src="../javascripts/mathjax.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
