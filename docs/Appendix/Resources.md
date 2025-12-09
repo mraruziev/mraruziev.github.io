@@ -1,5 +1,8 @@
 ---
-title: Appendix - Another Subfile
+title: Appendix - Resources
 ---
 
-Things to discuss
+
+## Zip of code
+
+The MPLAB IDE project is available [*here*](finalpic.zip).
