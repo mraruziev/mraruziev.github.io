@@ -559,6 +559,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#how-each-element-meets-product-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      How each element meets product requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes-on-pcb-schematic-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes on PCB / Schematic integration
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -953,6 +971,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#how-each-element-meets-product-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      How each element meets product requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes-on-pcb-schematic-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes on PCB / Schematic integration
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -984,6 +1020,32 @@
 <h2 id="block-diagram">Block Diagram</h2>
 <p>Following is my block diagram and is made in draw.io</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Block%20diagram%20EGR%20304%20individual.drawio%20%282%29.png" data-desc-position="bottom"><img alt="Individual Block Diagram" src="../Block%20diagram%20EGR%20304%20individual.drawio%20%282%29.png"></a></p>
+<h2 id="how-each-element-meets-product-requirements">How each element meets product requirements</h2>
+<ol>
+<li><strong>9V 3A Unregulated Power Supply</strong></li>
+<li>Provides ample supply for the full system and future peripheral expansion.</li>
+<li><strong>L7805 5V Regulator</strong></li>
+<li>Supplies a stable 5V rail for MCU, analog front-end, and indicator LEDs ensuring reliable operation.</li>
+<li><strong>Zinc/Copper Resistive Probe</strong></li>
+<li>Directly senses water conductivity/resistance; robust and low-cost sensing element meeting sensing requirement.</li>
+<li><strong>MCP6004 Op-Amp (Signal Conditioning)</strong></li>
+<li>Implements current-to-voltage conversion and differential amplification where needed, providing a stable 0-5V signal for the MCU ADC under varying water conditions.</li>
+<li>Input protection components (series resistor, clamps) protect the MCU and reduce electrolysis effects.</li>
+<li><strong>PIC18F57Q43 Microcontroller</strong></li>
+<li>Performs ADC sampling, filtering, threshold detection, PWM drives for LEDs, and UART/SPI as needed for team communication.</li>
+<li><strong>Status LEDs &amp; Buttons</strong></li>
+<li>Visual indication of safe/danger states and manual calibration/debug controls.</li>
+<li><strong>Protection &amp; Filtering</strong></li>
+<li>Ensures EMC robustness and protection from voltage spikes or reverse connection—improving reliability.</li>
+<li><strong>Team Connector (8-pin)</strong></li>
+<li>Matches team-standard connector providing 5V, GND, analog out, and digital signals for integration with other subsystems.</li>
+</ol>
+<h2 id="notes-on-pcb-schematic-integration">Notes on PCB / Schematic integration</h2>
+<ul>
+<li>Use series resistors and diodes on probe lines to limit current and reduce electrolysis.</li>
+<li>Consider multiplexing or switching if multiple probes or sensors are introduced.</li>
+<li>Calibrate in known-conductivity solutions to map ADC readings to conductivity values.</li>
+</ul>
 
 
 
