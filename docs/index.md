@@ -20,9 +20,17 @@ for<br>
 
 ### Project Summary
 
-* My part of the subsystem for this project is about<ins>checking conductivity in the water for the safety of water through the coper probe. </ins> There is going to be real-time feedback through visual alerts like LEDs. There are going to be many parts of projects that I will be sharing through this website. Stay tuned to see more from my individual contribution for team projects for EGR 304.
+* My part of the subsystem for this project is about<ins>checking conductivity in the water for the safety of water through the coper probe. </ins> There is going to be real-time feedback through visual alerts like LEDs. There are going to be many parts of projects that I will be sharing through this website. Stay tuned to see more from my individual contribution for team projects for EGR 304. Our project went very well and we measures safety of water and different things and learned very cool things.
 * For more information on how we integrate pH sensors, opacity sensors and measure for air contamination, water safety parameters, please check our [team report.](https://egr304-2025-f-210.github.io/)
 
+
+<center>
+**The Subsystems Connected at the End of the Course**
+
+![Project Photo](projectphoto304.jpg)
+</center>
+
+<iframe width="338" height="600" src="https://www.youtube.com/embed/sXKLj01uo9A" title="EGR 304 - look Neel we did it" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### My Contribution
 
