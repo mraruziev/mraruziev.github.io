@@ -9,7 +9,7 @@ Write a overview of what you did and why you did a Power Budget.
 
 ![budget1](Power1.png){style width:"350" height:"300;"}
 
-![budget2](Power2.png){style width:"350" height:"300;"}
+![budget2](Power 2.PNG){style width:"350" height:"300;"}
 
 ![budget3](Power3.png){style width:"350" height:"300;"}
 
