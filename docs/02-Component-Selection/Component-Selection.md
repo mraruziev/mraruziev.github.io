@@ -7,6 +7,18 @@ title: Component Selection
 
 > There are only few components in my subsystem and in this website I will be sharing about those and rationale why those are choosen over other possible options. I choose to use Zinc probe as main component, because it is good and I only need to check resistivity, conductivity through the probe material. 
 
+# Final Major Components Summary 
+
+| Component Category | Final Selected Component | Part Number / ID | Supplier | Cost | Role in System | Why This Component Was Selected |
+|-------------------|--------------------------|------------------|----------|-------|-----------------|--------------------------------|
+| **Conductivity Probe** | Zinc Alloy Conductivity Probe | DS9092 Zinc Alloy Probe (DEVMO 2PCS TM Card / iButton form) | Amazon | $13.99 | Provides the resistive sensing path for measuring water conductivity | Good corrosion resistance, stable conductivity behavior, easy to work with; suitable for simple resistive measurements; aligns with subsystem goal of low-cost sensing. |
+| **Operational Amplifier** | MCP6004 Quad Op-Amp | MCP6004-I/P | Microchip / DigiKey | ~$0.40 or included in kit | Buffers & amplifies probe voltage, conditions signal for ADC on PIC18F57Q43 | Rail-to-rail, low-power CMOS op-amp compatible with 5V supply, stable for slow-changing resistive signals; available in class kit. |
+| **Voltage Regulator** | 5V Linear Regulator | LM7805T | DigiKey | ~$0.33 or included | Produces a regulated 5V rail from the 9V external supply | Provides 1.5A output, simple and reliable, already provided in kit; well-understood for stable 5V powering of analog & digital components. |
+| **External Power Source** | 9V Wall Adapter | SWI12-9-N-P5 (or SWI12-12-E-P5 variant) | DigiKey | ~$15.86 | Supplies 9V input to the LM7805 regulator and the subsystem | Safe, regulated AC-DC supply; clean DC output; reliable powering for lab environment and team integration. |
+| **Microcontroller Board** | PIC18F57Q43 Curiosity Nano | DM164150 | Microchip | Provided by course | Main processing unit performing ADC, thresholding, LED control, and team communication | Required team MCU; supports analog inputs, PWM, communication pins, and fits team firmware structure. |
+| **Status Indicators (Actuation)** | Red + Green LEDs (through current-limit resistors) | Standard 5mm LEDs | Provided | Included | Indicate safe/danger conductivity levels via MCU PWM | Required for user feedback; simple, low-power interface to PIC outputs. |
+
+
 ## **Block:** Probe **Role:** Measures conductivity, resistivity of the water 
 
 | Solution | Photo | Cost | Link | Pros | Cons |
