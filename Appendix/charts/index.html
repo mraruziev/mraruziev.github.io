@@ -26,7 +26,7 @@
 
     
       
-        <title>Appendix - Charts Example - EGR 304 Asadbek Data Sheet</title>
+        <title>Appendix -Lessons learned and suggestions - EGR 304 Asadbek Data Sheet</title>
       
     
     
@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#lessons-learned" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -120,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Appendix - Charts Example
+              Appendix -Lessons learned and suggestions
             
           </span>
         </div>
@@ -889,16 +894,66 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Appendix -Lessons learned and suggestions
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Appendix - Charts Example
+    Appendix -Lessons learned and suggestions
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vibewater-subsystem-conductivity-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      VibeWater Subsystem (Conductivity Sensor)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-lessons-learned" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical Lessons Learned
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -950,6 +1005,34 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vibewater-subsystem-conductivity-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      VibeWater Subsystem (Conductivity Sensor)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-lessons-learned" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical Lessons Learned
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -972,35 +1055,60 @@
   
 
 
-  <h1>Appendix - Charts Example</h1>
-
-<pre class="mermaid"><code>graph LR
-  A[Start] --&gt; B{Error?};
-  B --&gt;|Yes| C[Hmm...];
-  C --&gt; D[Debug];
-  D --&gt; B;
-  B ----&gt;|No| E[Yay!];</code></pre>
-<pre class="mermaid"><code>sequenceDiagram
-  autonumber
-  Alice-&gt;&gt;John: Hello John, how are you?
-  loop Healthcheck
-      John-&gt;&gt;John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts!
-  John--&gt;&gt;Alice: Great!
-  John-&gt;&gt;Bob: How about you?
-  Bob--&gt;&gt;John: Jolly good!</code></pre>
-<pre class="mermaid"><code>stateDiagram-v2
-  state fork_state &lt;&lt;fork&gt;&gt;
-    [*] --&gt; fork_state
-    fork_state --&gt; State2
-    fork_state --&gt; State3
-
-    state join_state &lt;&lt;join&gt;&gt;
-    State2 --&gt; join_state
-    State3 --&gt; join_state
-    join_state --&gt; State4
-    State4 --&gt; [*]</code></pre>
+<h1 id="lessons-learned">Lessons Learned</h1>
+<h3 id="vibewater-subsystem-conductivity-sensor">VibeWater Subsystem (Conductivity Sensor)</h3>
+<p>Throughout the development of my subsystem for the VibeWater project, I learned several important technical and workflow skills that significantly improved my understanding of embedded design.</p>
+<h2 id="technical-lessons-learned">Technical Lessons Learned</h2>
+<ul>
+<li>
+<p><strong>KiCad PCB Design:</strong><br>
+  I learned how to design schematics, create footprints, route traces, and generate Gerber files. The process taught me how important component placement, grounding, and spacing are for analog accuracy.</p>
+</li>
+<li>
+<p><strong>UART and Digital Communication:</strong><br>
+  I gained experience working with UART communication between microcontrollers. Understanding how to configure UART pins and send/receive data was crucial for team integration.</p>
+</li>
+<li>
+<p><strong>Using MPLAB X and Coding in C:</strong><br>
+  I learned how to develop firmware using MPLAB X and write C programs for the PIC18F57Q43. This included ADC sampling, debouncing inputs, and PWM control for LEDs.</p>
+</li>
+<li>
+<p><strong>GitHub Workflow:</strong><br>
+  I learned how to use GitHub for version control, file tracking, and documentation. Writing Markdown pages for the individual datasheet taught me how to communicate engineering decisions clearly.</p>
+</li>
+<li>
+<p><strong>Understanding Course Structure:</strong><br>
+  I realized that the individual datasheet assignments function like a <strong>midterm</strong>, because they require full documentation, technical justification, and integration with the team project.</p>
+</li>
+</ul>
+<hr>
+<h1 id="recommendations-for-future-students">Recommendations for Future Students</h1>
+<p>Based on my experience in EGR 304, here are my recommendations for students taking this course in the future:</p>
+<h2 id="1-start-labs-early">1. Start Labs Early</h2>
+<p>Do the labs as early as possible. They build the foundation needed for the final design, and falling behind makes the hardware and software parts much harder later.</p>
+<h2 id="2-begin-pcb-design-early">2. Begin PCB Design Early</h2>
+<p>Start the PCB process early in the semester. Routing and fixing errors always takes longer than expected, especially when waiting for board revisions or troubleshooting mistakes.</p>
+<h2 id="3-begin-software-coding-early">3. Begin Software Coding Early</h2>
+<p>Firmware development should not wait until the end. Getting code running early helps test hardware assumptions, verify sensors, and prepare for integration with teammates.</p>
+<h2 id="4-use-github-from-day-one">4. Use GitHub from Day One</h2>
+<p>GitHub is essential for:
+- backing up your work<br>
+- tracking changes<br>
+- collaborating with teammates<br>
+- submitting documentation  </p>
+<p>Learning Markdown and practicing frequent commits will save a lot of time later.</p>
+<h2 id="5-take-the-datasheet-assignments-seriously">5. Take the Datasheet Assignments Seriously</h2>
+<p>The individual datasheet assignments feel like a <strong>midterm exam</strong> because they require:
+- clear engineering justification<br>
+- block diagrams<br>
+- schematics<br>
+- BOM<br>
+- power budgets<br>
+- firmware explanation  </p>
+<p>Completing them well makes the final project much easier.</p>
+<hr>
+<h1 id="final-thoughts">Final Thoughts</h1>
+<p>This course taught me real engineering workflow: designing hardware, coding firmware, debugging systems, documenting professionally, and integrating with a team. The skills I learned—KiCad, UART, C programming, MPLAB X, and GitHub—are directly applicable to real embedded engineering work.</p>
 
 
 
