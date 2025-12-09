@@ -1,57 +1,52 @@
+# Version 2.0 Hardware Improvements  
+### Asadbek Ruziev — Resistive Conductivity Subsystem (VibeWater)
+
+This page outlines the five major improvements that would be implemented in a Version 2.0 redesign of my hardware subsystem. These changes improve reliability, measurement accuracy, debugging capability, and integration with the rest of Team 210.
+
 ---
-title: Appendix - Basic Markdown Examples
+
+## 1. Larger PCB Size (From 7–8 cm to 10 × 10 cm)
+The original PCB was compact and difficult to route cleanly. Increasing the size to 10 × 10 cm would:
+- Provide better separation of analog and digital sections  
+- Allow cleaner routing with less electrical noise  
+- Improve heat dissipation around the LM7805 regulator  
+- Create space for future expansion and easier debugging  
+
+A larger board results in more stable readings and better long-term reliability.
+
 ---
 
-## Introduction
+## 2. Add Additional Headers for Expansion
+Version 1.0 had limited header access. Version 2.0 would include:
+- Two new GPIO header banks for future sensors or testing  
+- A dedicated UART/SWD programming header  
+- Clearly labeled test pads (ADC input, Op-amp output, VREF, 5V, GND)  
 
-**Bold Text**
-_Italic Text_
-**_Bold and Italic Text_**
+More headers give the system greater flexibility and make troubleshooting significantly easier.
 
-## Research Question
+---
 
-* Bullet Point 1
-* Bullet Point 2
-* Bullet Point 3
+## 3. Improve Probe Interface and Signal Stability
+The zinc/copper resistive probe benefits from cleaner signal conditioning. Upgrades include:
+An input polyfuse and reverse-polarity protection; a larger copper area for regulator heat dissipation; an optional footprint for a switching regulator (buck converter);  
+ A better location for the regulator to cut down on noise entering the analog stage
 
-## Images
+These changes increase measurement accuracy and extend probe lifespan.
 
-![image caption](https://idealab.asu.edu/assets/images/research/jumper1.png)
+---
 
-![dead bug circuit](Image01.jpg){style width:"350" height:"300;"}
-**Figure 2:** Early PCB working design
+## 4. Power System Upgrades
+The power section can be made more robust. Version 2.0 would add:
+- Larger copper area for regulator heat dissipation  
+- Optional footprint for a switching regulator (buck converter)  
+- Reverse-polarity protection and an input polyfuse  
+ - Improved regulator placement to reduce noise reaching the analog stage
 
+These improvements protect the board and ensure more stable voltage to sensitive components.
 
-![showcase](ImageShowcase.png)
-**Figure 3:** Innovation Showcase Spring '25, where the products were a STEM-themed display that demonstrates a single scientific/engineering concept with the intended user of K-12 students interested in learning about science, technology, engineering, or math.
+---
 
-
-## Results
-
-1. Numbered Point 1
-1. Numbered Point 2
-1. Numbered Point 3
-
-## Conclusions and Future Work
-
-## External Links
-
-[example link to idealab](https://idealab.asu.edu)
-
-
-## Results
-
-1. Numbered Point 1
-1. Numbered Point 2
-1. Numbered Point 3
-
-## Conclusions and Future Work
-
-## External Links
-
-[example link to idealab](https://idealab.asu.edu)
-
-
-## References
-
-
+## 5. Add Calibration and Testing Features
+To improve usability and measurement accuracy, Version 2.0 would include:
+- A calibration header for injecting known resistances  
+- Optional footprint for a temperature sensor (conductivity depends on temperature)  
