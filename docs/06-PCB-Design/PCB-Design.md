@@ -16,7 +16,7 @@ This PCB is designed to support a conductivity sensor, PIC Nano MicroChip microc
 
 **Figure 2:** Showing Asadbek's Subsystem PCB Rear
 
-![PCB printed](pcb_printed.png) 
+![PCB](pcb_printed.png) 
 
 **Figure 3:** The picture of printed PCB design
 
